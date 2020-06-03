@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-left: 100px;
+}
+
+.logo {
+  font-family: Tenali Ramakrishna;
+  font-size: 50px;
+  color: #43c4a6;
+  font-weight: bolder;
+}
+.title {
+  font-family: Tenali Ramakrishna;
+  font-size: 90px;
+  color: #000000;
+}
+
+.home-img {
+  width: 600px;
+}
+
+.title span {
+  color: #43c4a6;
+}
+.title-img {
+  display: flex;
+}
