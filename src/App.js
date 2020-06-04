@@ -1,5 +1,5 @@
 import React from 'react';
-import Category from './component/category'
+import Category from './Components/Category'
 
 function App() {  
   return (
