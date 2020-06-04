@@ -1,0 +1,16 @@
+.category-option-label {
+  font-family: 'Gill Sans', 'Trebuchet MS', 'sans-serif';
+  margin: 5px;
+  font-size: 25px;
+}
+
+.category-option {
+}
+
+.joke-button {
+  background-color: rgba(240, 240, 90, 0.801);
+  font-size: 25px;
+  border-radius: 40px;
+  padding: 5px;
+  margin: 5px;
+}

@@ -1,10 +1,10 @@
 import React from 'react';
+import Home from './Components/Home/Home.js';
 
-import Category from './Components/Category/Category';
 function App() {
   return (
     <div className='App'>
-      <Category />
+      <Home />
     </div>
   );
 }
