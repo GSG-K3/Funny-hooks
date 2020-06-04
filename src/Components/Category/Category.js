@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Category.css';
+import Joke from '../Joke/Joke'
 
 const Category = () => {
   const [joke, setJoke] = useState('');
@@ -19,9 +20,7 @@ const Category = () => {
         });
   };
 
-  useEffect(() => {
-    getJoke();
-  }, [category]);
+  useEffect(getJoke, [category]);
 
   return (
     <div>
@@ -44,6 +43,7 @@ const Category = () => {
         </label>
         <button onClick={getJoke}>Another Joke</button>
       </div>
+      <Joke jokeText={joke}/>
     </div>
   );
 };
