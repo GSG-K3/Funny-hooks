@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from './node_modules/react';
-import Joke from './Joke';
+import React, { useState, useEffect } from 'react';
 import './Category.css';
 
 const Category = () => {
@@ -17,7 +16,6 @@ const Category = () => {
         .then((data) => {
           if (data.joke) setJoke(data.joke);
           else setJoke(`-${data.setup} -${data.delivery}`);
-          console.log(data);
         });
   };
 
@@ -28,17 +26,24 @@ const Category = () => {
   return (
     <div>
       <div onChange={handleChange}>
-        <input type='radio' value='Programming' name='category' />
-        Programming
-        <input type='radio' value='Any' name='category' />
-        Any
-        <input type='radio' value='Miscellaneous' name='category' />
-        Miscelleneous
-        <input type='radio' value='Dark' name='category' />
-        Dark
+        <label htmlFor='Programming'>
+          <input type='radio' value='Programming' name='category' />
+          Programming
+        </label>
+        <label htmlFor='Any'>
+          <input type='radio' value='Any' name='category' />
+          Any
+        </label>
+        <label htmlFor='Miscellaneous'>
+          <input type='radio' value='Miscellaneous' name='category' />
+          Miscelleneous
+        </label>
+        <label htmlFor='Dark'>
+          <input type='radio' value='Dark' name='category' />
+          Dark
+        </label>
+        <button onClick={getJoke}>Another Joke</button>
       </div>
-      <Joke jokeText={joke} />
-      <button onClick={getJoke}>Another Joke</button>
     </div>
   );
 };
