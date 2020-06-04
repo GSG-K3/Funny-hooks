@@ -1,6 +1,5 @@
 import React from 'react';
-// import Category from './category'
-import Category from './component/category'
+import Category from './Components/Category/Category'
 function App() {  
   return (
     <div className="App">
