@@ -25,23 +25,23 @@ const Category = () => {
   return (
     <div>
       <div onChange={handleChange}>
-        <label htmlFor='Programming'>
+        <label className='category-option-label' htmlFor='Programming'>
           <input type='radio' value='Programming' name='category' />
           Programming
         </label>
-        <label htmlFor='Any'>
+        <label className='category-option-label' htmlFor='Any'>
           <input type='radio' value='Any' name='category' />
           Any
         </label>
-        <label htmlFor='Miscellaneous'>
-          <input type='radio' value='Miscellaneous' name='category' />
+        <label className='category-option-label' htmlFor='Miscellaneous'>
+          <input className='category-option' type='radio' value='Miscellaneous' name='category' />
           Miscelleneous
         </label>
-        <label htmlFor='Dark'>
-          <input type='radio' value='Dark' name='category' />
+        <label className='category-option-label' htmlFor='Dark'>
+          <input className='category-option' type='radio' value='Dark' name='category' />
           Dark
         </label>
-        <button onClick={getJoke}>Another Joke</button>
+        <button className="joke-button" onClick={getJoke}>Another Joke</button>
       </div>
       <Joke jokeText={joke}/>
     </div>
