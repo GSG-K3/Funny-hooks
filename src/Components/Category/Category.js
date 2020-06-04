@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from './node_modules/react';
 import Joke from './Joke';
+import './Category.css';
 
 const Category = () => {
   const [joke, setJoke] = useState('');
