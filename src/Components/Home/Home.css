@@ -12,7 +12,7 @@ body {
   color: #43c4a6;
   font-weight: bolder;
 }
-.title {
+.page-title {
   font-family: Tenali Ramakrishna;
   font-size: 90px;
   color: #000000;
@@ -22,7 +22,7 @@ body {
   width: 600px;
 }
 
-.title span {
+.page-title span {
   color: #43c4a6;
 }
 .title-img {
