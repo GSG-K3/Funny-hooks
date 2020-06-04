@@ -1,7 +1,6 @@
 # Funny Hooks
 Funny Hooks a Website displays a Random Joke for the user, using React-Hooks.
 
-![Desktop - 1 (1)](https://user-images.githubusercontent.com/54964739/83644118-97a61c00-a5b9-11ea-9d2d-4925b70525df.png)
 # User journy
 - As a user I should be able to choose a specific category for a joke.
 - As a user I should be able to see the joke based on the category I choose on screen.
@@ -29,7 +28,6 @@ $ npm start
       - Joke
    - App.js
    - index.js
-   - App.css
 ```
 ## Team Members
  - [Bayan](https://github.com/bayan-404)
